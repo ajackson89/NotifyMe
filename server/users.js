@@ -10,15 +10,15 @@ router.get(`/:id`, (req, res) => {
     
 })
 // Creating one
-router.get(`/:id`, (req, res) => {
+router.post (`/:id`, (req, res) => {
     
 })
 // Updating one
-router.get(`/:id`, (req, res) => {
+router.patch(`/:id`, (req, res) => {
     
 })
 // Deleting one
-router.get(`/:id`, (req, res) => {
+router.delete(`/:id`, (req, res) => {
     
 })
 
