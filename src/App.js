@@ -6,6 +6,8 @@ import Signup from './components/sign-up'
 import LoginForm from './components/login-form'
 import Navbar from './components/navbar'
 import Home from './components/home'
+import Dashboard from './components/dashboard'
+import DashboardDetails from './components/dashboard-details'
 
 class App extends Component {
   constructor() {
@@ -74,7 +76,16 @@ class App extends Component {
           render={() =>
             <Signup/>}
         />
-
+        <Route
+          path="/dashboard"
+          render={() =>
+            <Dashboard/>}
+        />
+        <Route
+          path="/dashboard-details"
+          render={() =>
+            <DashboardDetails/>}
+        />
       </div>
     );
   }
